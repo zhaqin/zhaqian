@@ -15,26 +15,6 @@ body{
 	font-family:arial;
 	background-color:#f5f5f5; 
 }
-<<<<<<< HEAD
-.main{	
-	width: 100%;
-	height: 100%;
-	background-color:#f5f5f5; 
-}
-.header{
-	width:100%;
-	min-width:850px;
-	height: 50px;
-	background-color:#fff;
-	border: 1px solid #dcdcdc;	 
-}
-.headr_margin{
-	width:1000px;
-	height:50px;
-	margin:0px auto;
-}
-.header_vlue:after{
-=======
 .header{
 /*	min-width:1200px;*/
 	height:50px;
@@ -49,7 +29,6 @@ body{
 	background-color:#fff; 
 }
 .hed_vlue_span:after{
->>>>>>> blog
 	content:"";
 	height: 0;
 	line-height: 0;
@@ -61,10 +40,7 @@ body{
 	float: left;
 	width: 140px;
 	height: 50px;
-<<<<<<< HEAD
-=======
 	background-color:#fff; 
->>>>>>> blog
 }
 .hed_vlue_span > ul > li{
 	text-align:center;
@@ -74,13 +50,8 @@ body{
 	font-size: 1em;
 }
 .hed_vlue_ul{
-<<<<<<< HEAD
-	height: 50px;
-	float: right;
-=======
 	float:right;
 	height: 50px;
->>>>>>> blog
 }
 .hed_vlue_ul > ul{
 	line-height:50px;
@@ -90,17 +61,6 @@ body{
 	margin-left:20px;
 }
 .body{
-<<<<<<< HEAD
-	width: 100%;
-	position:relative;
-	left:0;
-	top:0;
-	background-color:#f5f5f5; 
-}
-.body_left_vlue{
-	height: 3200px;
-	margin-left:80px;
-=======
 	width:942px;
 	background-color:#f5f5f5;
 	position:absolute;
@@ -115,7 +75,6 @@ body{
 	position:absolute;
 	top:0;
 	left:0;
->>>>>>> blog
 }
 .body_vlue_button{
 	width: 84px;	
@@ -143,11 +102,7 @@ body{
 }*/
 .body_pn{margin-top:50px;}
 .body_pn > ul{
-<<<<<<< HEAD
-	width:370px;
-=======
 	width:368px;
->>>>>>> blog
 }
 .body_pn > ul > li{
 	width:60px;
@@ -164,11 +119,7 @@ body{
 	padding:35px; 
 	background-color:#FFF;
 	border:1px solid #dcdcdc;
-<<<<<<< HEAD
-	margin-bottom:50px;
-=======
 	margin-top:50px;
->>>>>>> blog
 }
 .left_cennt{
 	display:inline-block;
@@ -177,11 +128,6 @@ body{
 	margin-right:50px;
 }
 .body_rigth{
-<<<<<<< HEAD
-	position:absolute;
-	top:0;
-	left:900px;
-=======
 /*	width:100%;*/
 /*	min-width:400px;*/
 	width:295px; 
@@ -194,7 +140,6 @@ body{
 .body_rigth_vlue{
 	display:inline-block;
 /*	margin-left:100px; */
->>>>>>> blog
 }
 .myboke{
 	height:440px;
@@ -221,11 +166,7 @@ body{
 	height:75px;
 }
 .seruen_wd{
-<<<<<<< HEAD
-	width:160px;
-=======
 	width:125px;
->>>>>>> blog
 	height:20px;
 	border:1px solid #eaeaea;
 }
@@ -272,19 +213,10 @@ body{
 	margin-top:10px;
 }
 .bottom{
-<<<<<<< HEAD
-	width:100%;
-	min-width:850px;
-=======
->>>>>>> blog
 	height:200px;
 	text-align: center;
 	margin-top:50px; 
 	border-top:1px dotted #e2e2e2;
-<<<<<<< HEAD
-/*	background-color:#fff;*/
-=======
->>>>>>> blog
 }
 .bottom > p{
 	line-height:50px;
