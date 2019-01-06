@@ -154,11 +154,11 @@ body{
 	position:absolute;
 	margin-top:10px; 
 	vertical-align:-35px;
-	width:60px;
 }
 .miusic_audio{
 	display:inline-block;
 	width:240px;
+	height:30px;
 	height:30px;
 	margin-top:20px; 
 }
