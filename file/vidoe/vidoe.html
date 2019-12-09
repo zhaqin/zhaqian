@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Qiang of Vidoe</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="shortcut icon" href="../../lib/img/home_page.png">
+  <script src="jquery-3.4.1.min.js"></script>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <style>
+		body{
+			margin:0;
+		}
+		iframe{
+			border:0;
+		}
+  </style>
+</head>
+<body>
+<!-- 加一个转串串 -->
+<iframe id="iframe_vidoe" src="" frameborder="0" width="100%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts"></iframe>
+<script type="text/javascript">
+var iframe = document.getElementById("iframe_vidoe");
+
+iframe.src = "https://video.yoyling.com/";
+iframe.scrolling="yes";
+if (!/*@cc_on!@*/0) { //if not IE
+iframe.onload = function(){
+	console.log("is load");
+// alert("Local iframe is now loaded.");
+};
+} else {
+iframe.onreadystatechange = function(){
+if (iframe.readyState == "complete"){
+// alert("Local iframe is now loaded.");
+}
+};
+function test(){
+	console.log("is printf");
+}
+iframe.onafterprint = function(){
+	console.log("err");
+}
+}
+</script>
+<script type="text/javascript">
+	window.οnerrοr=function(){return true;}
+
+	$(function(){
+
+	headerH = 0;
+
+	var h=$(window).height();
+
+	$("#iframe_vidoe").height((h-headerH)+"px");
+	});
+</script>
+</body>
+</html>
