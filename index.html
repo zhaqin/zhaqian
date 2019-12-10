@@ -18,7 +18,6 @@
   	<title>Strong-Blog</title>
   	<meta name="keywords" content="Qiang,博客,资源下载,candence,C,Linux,blog">
  	<meta name="description" content="至简 至极 学习 技术">
-<!--   	<link rel="stylesheet" type="text/css" href="./lib/css/DPlayer.min.css"> -->
 	<link rel="shortcut icon" href="./lib/img/home_page.png">
 	<script> this.top.location !== this.location && (this.top.location = this.location);</script> 
 	<script>var dPlayers = [];var dPlayerOptions = [];</script><!-- cPlayer Start -->
@@ -30,8 +29,6 @@
 	  <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
 	  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-<!-- 	<script type="text/javascript" src="./lib/js/cplayer.js" async="" crossorigin="anonymous" integrity="sha256-DfhgVlsA1ZGGnu67H8m4gS6sKim08dZwCO51NqiW54Q=">
-	</script> -->
 </head>
 
 <body class="bg-grey" gtools_scp_screen_capture_injected="true">
@@ -262,28 +259,12 @@
 
 
 <style type="text/css">
-    #back_to_top {
-      text-decoration: none;
-      position: fixed;
-      bottom: 50%;
-      right: 60px;
-      width: 50px;
-      line-height: 36px;
-      font-size: 18px;
-      text-align: center;
-      z-index: 9999;
-      display: none;
-      border: 1px solid #efa886;
-      -webkit-transition: all 0.1s ease-in;
-      -moz-transition: all 0.1s ease-in;
+    #back_to_top {text-decoration: none;position: fixed;bottom: 50%;right: 60px;width: 50px;line-height: 36px;font-size: 18px;
+      text-align: center;z-index: 9999;display: none;border: 1px solid #efa886;-webkit-transition: all 0.1s ease-in;-moz-transition: all 0.1s ease-in;
       -o-transition: all 0.1s ease-in;
       transition: all 0.1s ease-in;
     }
-    #back_to_top:hover{
-		background-color:#d5d5d5;
-    }
-  
- 
+    #back_to_top:hover{background-color:#d5d5d5;}
 </style>
 
 
@@ -328,51 +309,9 @@
 </footer>
  <a id="back_to_top" href="https://zhangqiang970.cn/#" class="back_to_top" style="display: none;" title="返回顶部"><span>△</span></a>
  <!-- 关闭cplayer -->
-<!-- <script type="text/javascript" src="./lib/js/hls.min.js"></script>
-<script type="text/javascript" src="./lib/js/DPlayer.min.js"></script>
-<script type="text/javascript" src="./lib/js/init-dplayer.js"></script> -->
-<!-- cPlayer Start -->
-<!-- <script async="">
-"use strict";
-(function(){
-var cp = function(){
-    var len = cPlayerOptions.length;
-    for(var i=0;i<len;i++){
-        var element = document.getElementById('player' + cPlayerOptions[i]['id'])
-        while (element.hasChildNodes()) {
-            element.removeChild(element.firstChild);
-        };
-        cPlayers[i] = new cPlayer({
-            element: element,
-            list: cPlayerOptions[i]['list'],
-        });
-        if(cPlayerOptions[i]['autoplay'] === 'true') cPlayers[i].music.autoplay = true;
-    };
-    cPlayers = [];cPlayerOptions = [];
-};
-var script = document.createElement('script');
-script.type = "text/javascript";
-script.src = "";
-script.async = true;
-script.crossOrigin = "anonymous";
-script.integrity = "sha256-DfhgVlsA1ZGGnu67H8m4gS6sKim08dZwCO51NqiW54Q=";
-if(script.readyState){  //IE
-    script.onreadystatechange = function(){
-        if (script.readyState == "loaded" ||
-            script.readyState == "complete"){
-            script.onreadystatechange = null;
-            cp();
-        }
-    };
-}else{  //Others
-    script.onload = function(){
-        cp();
-    };
-}
-document.head.appendChild(script);
-})();
-</script> -->
+
 <!-- cPlayer End -->
+<!-- header js -->
 <script src="./lib/js/headroom.min.js"></script>
 <script src="./lib/js/highlight.min.js"></script>
 <script src="./lib/js/fastclick.min.js"></script>
