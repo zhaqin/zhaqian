@@ -12,69 +12,7 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
 <script type="text/javascript">
-(function () {
-    var event = document.addEventListener ? {
-        add: 'addEventListener',
-        triggers: ['scroll', 'mousemove', 'keyup', 'touchstart'],
-        load: 'DOMContentLoaded'
-    } : {
-        add: 'attachEvent',
-        triggers: ['onfocus', 'onmousemove', 'onkeyup', 'ontouchstart'],
-        load: 'onload'
-    }, added = false;
-
-    document[event.add](event.load, function () {
-        var r = document.getElementById('respond-page-64'),
-            input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = '_';
-        input.value = (function () {
-    var _CJw4 = 'e'//'W'
-+'eDs'//'eDs'
-+'5f'//'7g'
-+'1f0'//'sxe'
-+//'Yb0'
-'d9'+'23'//'X'
-+/* 'wj'//'wj' */''+'73'//'EXy'
-+'65c'//'vL'
-+'fd'//'IZG'
-+'72'//'eE'
-+//'A'
-'A'+//'xo'
-'464'+/* 'VM1'//'VM1' */''+/* 'L'//'L' */''+'Myu'//'Myu'
-+//'Ig'
-'911'+//'Ofv'
-'4a9'+'LZ'//'LZ'
-+'a'//'Q'
-+'27c'//'Je'
-, _WDEO = [[1,4],[19,20],[22,25],[28,30]];
-    
-    for (var i = 0; i < _WDEO.length; i ++) {
-        _CJw4 = _CJw4.substring(0, _WDEO[i][0]) + _CJw4.substring(_WDEO[i][1]);
-    }
-
-    return _CJw4;
-})();
-
-        if (null != r) {
-            var forms = r.getElementsByTagName('form');
-            if (forms.length > 0) {
-                function append() {
-                    if (!added) {
-                        forms[0].appendChild(input);
-                        added = true;
-                    }
-                }
-            
-                for (var i = 0; i < event.triggers.length; i ++) {
-                    var trigger = event.triggers[i];
-                    document[event.add](trigger, append);
-                    window[event.add](trigger, append);
-                }
-            }
-        }
-    });
-})();
+(function(){var event=document.addEventListener?{add:"addEventListener",triggers:["scroll","mousemove","keyup","touchstart"],load:"DOMContentLoaded"}:{add:"attachEvent",triggers:["onfocus","onmousemove","onkeyup","ontouchstart"],load:"onload"},added=false;document[event.add](event.load,function(){var r=document.getElementById("respond-page-64"),input=document.createElement("input");input.type="hidden";input.name="_";input.value=(function(){var _CJw4="e"+"eDs"+"5f"+"1f0"+"d9"+"23"+""+"73"+"65c"+"fd"+"72"+"A"+"464"+""+""+"Myu"+"911"+"4a9"+"LZ"+"a"+"27c",_WDEO=[[1,4],[19,20],[22,25],[28,30]];for(var i=0;i<_WDEO.length;i++){_CJw4=_CJw4.substring(0,_WDEO[i][0])+_CJw4.substring(_WDEO[i][1])}return _CJw4})();if(null!=r){var forms=r.getElementsByTagName("form");if(forms.length>0){function append(){if(!added){forms[0].appendChild(input);added=true}}for(var i=0;i<event.triggers.length;i++){var trigger=event.triggers[i];document[event.add](trigger,append);window[event.add](trigger,append)}}}})})();
 </script>
   <link href="xcode.min.css" rel="stylesheet">
   <link href="style.min.css" rel="stylesheet">
@@ -96,8 +34,7 @@
                         <img src="../../lib/img/logo_1.png" alt="Strong · Blog">
                     </a>
         <div class="navbar-menu">
-           
-                                                  <div>
+        <div>
                 <a href="../archive/archive.html">分类</a>
                 <ul>
                     <li><a href="../life/life.html">博主生活</a></li>
@@ -108,21 +45,12 @@
                     <li><a href="../c/c.html">C语言</a></li>
                 </ul>
             </div>
-                        
-
-                        
             <a class="current" href="../download/download.html">下载</a>
-            
             <a href="../music/music.html">音乐</a>
-            
             <a href="../vidoe/vidoe.html">视频</a>
-            
             <a href="../friendLink/friendLink.html">友链</a>
-            
             <a href="../my/my.html">关于</a>
-            
             <a href="https://www.zhangqiang970.cn/">HOME</a>
-            
         </div>
           <div class="navbar-mobile-menu" id="navbar-mobile-swith" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
@@ -139,20 +67,13 @@
                     <li><a href="../c/c.html">C语言</a></li>
               </ul>
               </li>
-                
-                                
+
                 <li><a class="current" href="../download/download.html">下载</a></li>
-                
                 <li><a href="../music/music.html">音乐</a></li>
-                
                 <li><a href="../vidoe/vidoe.html">视频</a></li>
-                
                 <li><a href="../friendLink/friendLink.html">友链</a></li>
-                
                 <li><a href="../my/my.html">关于</a></li>
-                
                 <li><a href="https://www.zhangqiang970.cn/">HOME</a></li>
-                
             </ul>
         </div>
     </div>
@@ -176,28 +97,9 @@
     <br><p>如侵犯他人著作权、名誉权、隐私权及肖像权等请联系本站删除。</p></div>
 </article>
 
-
 <style type="text/css">
-    #back_to_top {
-      text-decoration: none;
-      position: fixed;
-      bottom: 50%;
-      right: 60px;
-      width: 50px;
-      line-height: 36px;
-      font-size: 18px;
-      text-align: center;
-      z-index: 9999;
-      display: none;
-      border: 1px solid #efa886;
-      -webkit-transition: all 0.1s ease-in;
-      -moz-transition: all 0.1s ease-in;
-      -o-transition: all 0.1s ease-in;
-      transition: all 0.1s ease-in;
-    }
-    #back_to_top:hover{background-color:#d5d5d569;}
-  </style>
-
+#back_to_top{text-decoration:none;position:fixed;bottom:50%;right:60px;width:50px;line-height:36px;font-size:18px;text-align:center;z-index:9999;display:none;border:1px solid #efa886;-webkit-transition:all .1s ease-in;-moz-transition:all .1s ease-in;-o-transition:all .1s ease-in;transition:all .1s ease-in}#back_to_top:hover{background-color:#d5d5d569}
+</style>
 <!-- bottom -->
 <footer id="footer" class="footer ">
   <div class="footer-social">
@@ -218,8 +120,6 @@
 <!--                     <a href="https://zhangqiang970.cn/" class="info-logo"><img src="./lib/img/wechat.JPG" alt="Strong · 博客"></a>
  -->        <div class="info-text">
               <p id="yephy">I like for you &amp;<span style="color: rgb(255, 120, 71);">x</span><span style="color: rgb(29, 223, 163);">%</span><span style="color: rgb(255, 120, 71);">e</span><span style="color: rgb(191, 60, 175);">m</span><span style="color: rgb(228, 65, 157);">A</span></p>
-
-
         <p>Welcome to <a href="https://www.zhangqiang970.cn/" target="_blank" rel="nofollow">zhangqiang970.cn</a></p>
         <p>已在世界的角落里存活了<b> 
          <script language="JavaScript" type="text/javascript"> var urodz = new Date("1/12/2019"); var now = new Date(); var ile = now.getTime() - urodz.getTime(); var dni = Math.floor(ile / (1000 * 60 * 60 * 24)); document.write( + dni) 
@@ -244,74 +144,11 @@
 <script src="highlight.min.js.下载"></script>
 <script src="fastclick.min.js.下载"></script>
 <script>
-var header = new Headroom(document.getElementById("header"), {
-    tolerance: 0,
-    offset : 70,
-    classes: {
-      initial: "animated",
-      pinned: "slideDown",
-      unpinned: "slideUp"
-    }
-});
-header.init();
-//修正onclick
-//***********************************
-var navbarSwith = document.getElementById("navbar-mobile-swith");
-navbarSwith.onclick = function() {
-    navbarSwith.classList.toggle("navbar-mobile-menu-on");
-};
-//***********************************
-
-if ('addEventListener' in document) {
-    document.addEventListener('DOMContentLoaded', function() {
-        FastClick.attach(document.body);
-    }, false);
-}
+var header=new Headroom(document.getElementById("header"),{tolerance:0,offset:70,classes:{initial:"animated",pinned:"slideDown",unpinned:"slideUp"}});header.init();var navbarSwith=document.getElementById("navbar-mobile-swith");navbarSwith.onclick=function(){navbarSwith.classList.toggle("navbar-mobile-menu-on")};if("addEventListener" in document){document.addEventListener("DOMContentLoaded",function(){FastClick.attach(document.body)},false)};
 </script>
-
 <!--彩色打字机-->
 <script>
-var yephy = function (r) {
-    function t() {
-        return b[Math.floor(Math.random() * b.length)]
-    }
-
-    function e() {
-        return String.fromCharCode(94 * Math.random() + 33)
-    }
-
-    function n(r) {
-        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
-            var l = document.createElement("span");
-            l.textContent = e(), l.style.color = t(), n.appendChild(l)
-        }
-        return n
-    }
-
-    function i() {
-        var t = o[c.skillI];
-        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
-    }
-    var l = "I like for ",
-       o = ["C", "JavaScript", "HTML & CSS", "Linux", "Python", "技术"].map(function (r) {
-            return r + "."
-        }),        a = 2,
-        g = 1,
-        s = 5,
-        d = 75,
-        b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
-        c = {
-            text: "",
-            prefixP: -s,
-            skillI: 0,
-            skillP: 0,
-            direction: "forward",
-            delay: a,
-            step: g
-        };
-    i()
-};
-yephy(document.getElementById('yephy'));
+var yephy=function(r){function t(){return b[Math.floor(Math.random()*b.length)]}function e(){return String.fromCharCode(94*Math.random()+33)}function n(r){for(var n=document.createDocumentFragment(),i=0;r>i;i++){var l=document.createElement("span");l.textContent=e(),l.style.color=t(),n.appendChild(l)}return n}function i(){var t=o[c.skillI];c.step?c.step--:(c.step=g,c.prefixP<l.length?(c.prefixP>=0&&(c.text+=l[c.prefixP]),c.prefixP++):"forward"===c.direction?c.skillP<t.length?(c.text+=t[c.skillP],c.skillP++):c.delay?c.delay--:(c.direction="backward",c.delay=a):c.skillP>0?(c.text=c.text.slice(0,-1),c.skillP--):(c.skillI=(c.skillI+1)%o.length,c.direction="forward")),r.textContent=c.text,r.appendChild(n(c.prefixP<l.length?Math.min(s,s+c.prefixP):Math.min(s,t.length-c.skillP))),setTimeout(i,d)}var l="I like for ",o=["C","JavaScript","HTML & CSS","Linux","Python","技术"].map(function(r){return r+"."}),a=2,g=1,s=5,d=75,b=["rgb(110,64,170)","rgb(150,61,179)","rgb(191,60,175)","rgb(228,65,157)","rgb(254,75,131)","rgb(255,94,99)","rgb(255,120,71)","rgb(251,150,51)","rgb(226,183,47)","rgb(198,214,60)","rgb(175,240,91)","rgb(127,246,88)","rgb(82,246,103)","rgb(48,239,130)","rgb(29,223,163)","rgb(26,199,194)","rgb(35,171,216)","rgb(54,140,225)","rgb(76,110,219)","rgb(96,84,200)"],c={text:"",prefixP:-s,skillI:0,skillP:0,direction:"forward",delay:a,step:g};i()};yephy(document.getElementById("yephy"));
 </script>
     <!--主题核心js-->
     <script type="text/javascript" src="jquery.js.下载"></script>
